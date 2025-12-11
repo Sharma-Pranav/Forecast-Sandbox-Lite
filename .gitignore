@@ -1,0 +1,18 @@
+# raw dataset
+data/raw/
+data/interim/
+
+# python
+__pycache__/
+*.pyc
+
+# venv
+.env/
+.venv/
+
+# notebooks checkpoints
+.ipynb_checkpoints/
+
+# local system files
+.DS_Store
+Thumbs.db

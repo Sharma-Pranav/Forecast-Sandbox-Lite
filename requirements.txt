@@ -1,0 +1,7 @@
+streamlit
+pandas
+numpy
+plotly
+lightgbm
+scikit-learn
+chronos-forecasting==2.2.0
