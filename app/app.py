@@ -351,13 +351,6 @@ def main() -> None:
             mime="text/csv",
         )
 
-        st.markdown("**Best Overall Model (Lower Score is better)**")
-        st.dataframe(
-            best_model_overall[["model", "score"]],
-            use_container_width=True,
-            height=300,
-        )
-
 
 if __name__ == "__main__":
     main()
